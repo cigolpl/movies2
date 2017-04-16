@@ -116,8 +116,8 @@ gulp.task('build', gulpSequence(
   'templates.js',
   'css',
   'js',
-  'generate-html',
-  'minify-html'
+  'generate-html'
+  //'minify-html'
 ));
 
 gulp.task('minify-html', () => {
